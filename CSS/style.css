@@ -152,3 +152,56 @@ body{
         left: 50%;
         transform: translate(-50%,-50%);
     } */
+
+@media (max-width:780px  ) {
+    .contianer {
+    
+        .bagCard {
+            min-height: 460px;
+            .header{
+    
+                div  {
+
+                    p{
+                    font-size: 15px;
+                    font-weight: 600;
+                    }
+                }
+                >p{
+                    font-size: 8px;
+                }
+                .text{
+
+                    p{
+                        font-size: 8px;
+                    }
+                    p:last-of-type{
+                        position: relative;
+                        right: 5%;
+                    }    
+                }
+    
+            }
+            .picter  {
+
+                .win-massag{
+                    color: white;
+                }
+    
+                .box{
+                    height: 25px;
+                    transform-style: preserve-3d;
+                    display: grid;
+                 
+                    i{
+                        font-size: 30px;
+                        border-radius: 8px;
+                    }
+    
+
+                }
+               
+            }
+        }
+    }
+}
