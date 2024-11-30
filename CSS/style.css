@@ -152,7 +152,7 @@ body{
 @media (max-width:780px  ){
     .contianer .bagCard {
         grid-template-rows: 20% 75%;
-        padding:30px 15px ;
+        padding: 15px ;
     }
 }
 @media (max-width:780px  ){
