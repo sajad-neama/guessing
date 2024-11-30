@@ -29,7 +29,7 @@ body{
     padding-top: 30px;
     border-radius: 30px;
     margin-top: 100px;
-    margin-bottom: 500px;
+    margin-bottom: 150px;
     .head {
         height: 40px;
         width: 100%;
@@ -39,6 +39,7 @@ body{
         top: 0px;
         z-index: -1;
     }
+
 
     }
     .bagCard {
@@ -142,33 +143,32 @@ body{
            
         }
     }
-    /* .box:hover {
-        transform: rotatey(180deg);
-    }  */
-
-    /* div {
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    } */
 
 @media (max-width:780px  ){
     .contianer {
         width: 86%;
     }
 }
+/* @media (max-width:780px  ){
+    .contianer .head {
 
+    }
+} */
 @media (max-width:780px  ){
     .contianer .bagCard {
         grid-template-rows: 20% 75%;
+        /* .header{
 
+        } */
     }
 }
 @media (max-width:780px  ){
     .contianer .picter {
         grid-template-columns: repeat(5, 1fr);
-
+        /* .box{
+            
+        } */
+       
 
     }
 }
