@@ -144,11 +144,7 @@ body{
         }
     }
 
-@media (max-width:780px  ){
-    .contianer {
-        width: 86%;
-    }
-}
+
 /* @media (max-width:780px  ){
     .contianer .head {
 
