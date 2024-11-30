@@ -145,11 +145,10 @@ body{
     }
 
 
-/* @media (max-width:780px  ){
-    .contianer .head {
-
+@media (max-width:780px  ){
+    .contianer {
+            margin-top: 30px;
     }
-} */
 @media (max-width:780px  ){
     .contianer .bagCard {
         grid-template-rows: 20% 75%;
