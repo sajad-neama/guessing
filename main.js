@@ -147,8 +147,8 @@ function Hide_All_Images() {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 448px;
-        height: 275px;
+        // width: 448px;
+        // height: 275px;
         ` 
         
     }
@@ -164,8 +164,8 @@ function Hide_All_Images() {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 448px;
-        height: 275px;
+        // width: 448px;
+        // height: 275px;
         
         ` 
     }
