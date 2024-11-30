@@ -155,29 +155,20 @@ body{
 
 @media (max-width:780px  ){
     .contianer {
-
+        width: 86%;
     }
 }
-@media (max-width:780px  ){
-    .contianer .head {
 
-    }
-}
 @media (max-width:780px  ){
     .contianer .bagCard {
         grid-template-rows: 20% 75%;
-        .header{
 
-        }
     }
 }
 @media (max-width:780px  ){
     .contianer .picter {
         grid-template-columns: repeat(5, 1fr);
-        .box{
-            
-        }
-        
+
 
     }
 }
