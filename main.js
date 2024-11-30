@@ -176,14 +176,14 @@ function Hide_All_Images() {
 function Show_All_Items() {
     let myPicter = document.querySelector (".picter");
     myPicter.style.cssText =`
-    width: 448px;
+    width: fit-content;
     display: flex;
-    height: 275px;
+    height: fit-content;
     justify-content: center;
     align-items: center;
     font-weight: bolder;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    // grid-template-columns: repeat(8, 1fr);
     ` 
     
     document.querySelectorAll (".picter div").forEach(element => {
