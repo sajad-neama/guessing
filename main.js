@@ -142,13 +142,11 @@ function Hide_All_Images() {
         document.querySelector(".win-massag").style.display = 'block';
         let myPicter = document.querySelector ('.picter')
 
-
         myPicter.style.cssText =`
         display: flex;
         justify-content: center;
         align-items: center;
-        // width: 448px;
-        // height: 275px;
+
         ` 
         
     }
@@ -164,8 +162,7 @@ function Hide_All_Images() {
         display: flex;
         justify-content: center;
         align-items: center;
-        // width: 448px;
-        // height: 275px;
+
         
         ` 
     }
@@ -183,7 +180,6 @@ function Show_All_Items() {
     align-items: center;
     font-weight: bolder;
     display: grid;
-    // grid-template-columns: repeat(8, 1fr);
     ` 
     
     document.querySelectorAll (".picter div").forEach(element => {
