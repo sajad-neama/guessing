@@ -153,55 +153,31 @@ body{
         transform: translate(-50%,-50%);
     } */
 
-@media (max-width:780px  ) {
+@media (max-width:780px  ){
     .contianer {
-    
-        .bagCard {
-            min-height: 460px;
-            .header{
-    
-                div  {
 
-                    p{
-                    font-size: 15px;
-                    font-weight: 600;
-                    }
-                }
-                >p{
-                    font-size: 8px;
-                }
-                .text{
+    }
+}
+@media (max-width:780px  ){
+    .contianer .head {
 
-                    p{
-                        font-size: 8px;
-                    }
-                    p:last-of-type{
-                        position: relative;
-                        right: 5%;
-                    }    
-                }
-    
-            }
-            .picter  {
+    }
+}
+@media (max-width:780px  ){
+    .contianer .bagCard {
+        grid-template-rows: 20% 75%;
+        .header{
 
-                .win-massag{
-                    color: white;
-                }
-    
-                .box{
-                    height: 25px;
-                    transform-style: preserve-3d;
-                    display: grid;
-                 
-                    i{
-                        font-size: 30px;
-                        border-radius: 8px;
-                    }
-    
-
-                }
-               
-            }
         }
+    }
+}
+@media (max-width:780px  ){
+    .contianer .picter {
+        grid-template-columns: repeat(5, 1fr);
+        .box{
+            
+        }
+        
+
     }
 }
