@@ -151,19 +151,12 @@ body{
     }
 @media (max-width:780px  ){
     .contianer .bagCard {
-        grid-template-rows: 20% 75%;
-        /* .header{
+        grid-template-rows: 25% 75%;
 
-        } */
     }
 }
 @media (max-width:780px  ){
     .contianer .picter {
-        grid-template-columns: repeat(5, 1fr);
-        /* .box{
-            
-        } */
-       
-
+        grid-template-columns: repeat(4, 1fr);
     }
 }
